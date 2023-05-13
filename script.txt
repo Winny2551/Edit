@@ -98,45 +98,7 @@ local function autoFa()
 end
 
 local autoFarmToggle = Section:NewToggle("50 Win", "", function(value)
-
-    autoFarmEnabl = value
-
-    if autoFarmEnabl then
-
-        autoFa()
-
-    end
-
-end)
-
---------------------------------------------------------------------
-
-local autoFarmEnab = false
-
-local autoFarmPosit = CFrame.new(-51.0905533, 1.22592497, -167.701767, -0.0999228358, -4.14438404e-08, 0.994995177, -2.37493092e-09, 1, 4.14137986e-08, -0.994995177, 1.77513959e-09, -0.0999228358)
-
-local function autoF()
-
-    while autoFarmEnab do
-
-        Char.HumanoidRootPart.CFrame = CFrame.new(-217.676453, 66.6004028, -237.498215, 0.938340783, -0.0547578596, 0.341347516, 6.85239883e-08, 0.987376392, 0.15839152, -0.345711648, -0.14862521, 0.926495552)
-
-        wait(2.2)
-
-    end
-
-    Char.HumanoidRootPart.CFrame = autoFarmPosi
-
-end
-
-local autoFarmToggle = Section:NewToggle("250 Win", "", function(value)
-
-    autoFarmEnab = value
-
-    if autoFarmEnab then
-
-        autoF()
-
-    end
-
-end)
+local autoFarmToggle = Section:NewToggle("50 Win", "", function(value)
+local autoFarmToggle = Section:NewToggle("50 Win", "", function(value)
+local autoFarmToggle = Section:NewToggle("50 Win", "", function(value)
+local autoFarmToggle = Section:NewToggle("50 Win", "", function(value)
